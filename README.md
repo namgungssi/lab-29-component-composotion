@@ -1,20 +1,47 @@
 401 JS --  Lab 29 Todo
 ===
+Budgeting - React + Redux Sample App
+
+Sample app demonstrating the power and simplicity of React, Redux, and Webpack.
+
+Contains
+
+#Webpack
+ React
+ Redux
+ Babel
+
+
+#Setup
+$ npm install
+
+
+#Running
+$ npm start
+
+
+#Build
+$ npm run build
+
+
+#License
+MIT
+
 
 ## Submission Instructions
   * continue working from lab 28
   * open a **new branch** and create **new pull request** and submit a link on canvas
-  
+
 ## Learning Objectives  
 * Students will learn to about composition vs inheritance
 * Students will learn to compose react components using props
 
 ## Requirements  
- 
-#### Feature Tasks 
-Refactor and add the following components. 
 
-###### NoteUpdateForm 
+#### Feature Tasks
+Refactor and add the following components.
+
+###### NoteUpdateForm
 Create a NoteUpdateForm component that inherits a note through props and on submit is able to
 update the App's state with an updated note.
 
@@ -23,13 +50,13 @@ If the user double clicks on the notes content it should switch to the Edit View
 * Default view  
   * Display the notes content and a delete button
   * Display a delete button that will remove the Note from the application's state
-* Edit View 
+* Edit View
   * Show the NoteUpdateForm and a Cancel Button
   * onNoteUpdateForm Submit or click of the cancel button it should switch back to the default view
 
 ###### App Component Tree
 Your components should be nested in the following layout  
-``` 
+```
 App
   NoteCreateForm
   NoteList
